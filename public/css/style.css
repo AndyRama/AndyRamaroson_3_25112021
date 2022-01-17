@@ -10,6 +10,44 @@ body, html {
   position: relative;
 }
 
+.footer {
+  background-color: #353535;
+}
+.footer .container {
+  display: flex;
+  flex-direction: column;
+}
+.footer__title {
+  color: white;
+  font-size: 1.5rem;
+  font-family: "shrikhand";
+  font-weight: lighter;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  margin-bottom: 0;
+}
+.footer__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 1.5rem;
+  margin-bottom: 2rem;
+}
+.footer__listElt {
+  margin: 0.5rem 0;
+}
+.footer__link {
+  text-decoration: none;
+  color: white;
+}
+.footer__link:hover {
+  color: #9356DC;
+}
+.footer__icon {
+  width: 1rem;
+  margin-right: 0.5rem;
+}
+
 .header {
   display: flex;
   justify-content: center;
