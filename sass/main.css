@@ -53,6 +53,7 @@ body, html {
 
 .hero__subtitle {
   font-weight: 400;
+  margin: 1.5rem 0;
 }
 
 .hero__btn {
@@ -64,5 +65,9 @@ body, html {
   color: white;
   cursor: pointer;
   border-radius: 50px;
+}
+
+.fonct {
+  padding: 2rem 1rem;
 }
 /*# sourceMappingURL=main.css.map */
