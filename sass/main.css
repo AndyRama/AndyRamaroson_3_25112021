@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap");
+.local {
+  background-color: #f3f3f3;
+}
+
 .hero {
   text-align: center;
-  background-color: #fafafa;
+  background-color: RED;
 }
 
 .hero__title {
