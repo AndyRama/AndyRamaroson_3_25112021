@@ -1,0 +1,15 @@
+.hero {
+    text-align: center;
+    background-color: RED;
+  
+    &__title {
+      margin: 0;
+    }
+  
+    &__subtitle {
+      font-weight: 300;
+    
+    }
+  
+  
+  }

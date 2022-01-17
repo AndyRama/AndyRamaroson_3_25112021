@@ -1,2 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap");
+.hero {
+  text-align: center;
+  background-color: #fafafa;
+}
+
+.hero__title {
+  margin: 0;
+}
+
+.hero__subtitle {
+  font-weight: 300;
+}
 /*# sourceMappingURL=main.css.map */
