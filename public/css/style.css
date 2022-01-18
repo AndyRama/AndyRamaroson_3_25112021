@@ -86,11 +86,21 @@ body, html {
   border: 0;
   padding: 0.75rem 1.5rem;
   font-weight: 400;
-  background-color: #666666;
   font-size: 1.1rem;
+  background-color: #666666;
   color: white;
   cursor: pointer;
   border-radius: 50px;
+  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
+  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9) 0%, rgba(255, 121, 218, 0.9) 100%);
+}
+.hero__btn:hover {
+  background-color: white;
+  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
+}
+.hero__btn a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .fonct {
@@ -131,7 +141,7 @@ body, html {
 
 .restaurants {
   background-color: #f6f6f6;
-  padding: 2rem 1rem;
+  padding: 2rem;
 }
 .restaurants__title {
   font-size: 1.8em;
@@ -142,6 +152,63 @@ body, html {
   grid-template-columns: repeat(1, 1fr);
   column-gap: 2rem;
   row-gap: 2rem;
+}
+@media (min-width: 64rem) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 1rem;
+  position: relative;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+.card__img {
+  height: 12rem;
+  width: 100%;
+  border: 0px solid transparent;
+  border-radius: 1rem 1rem 0 0;
+  object-fit: cover;
+}
+.card__badge {
+  background-color: #99E2D0;
+  color: #1b6150;
+  padding: 0.5rem;
+  border-radius: 0.125rem;
+  position: absolute;
+  top: 1rem;
+  right: 0.75rem;
+}
+.card__footer {
+  padding: 1rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.card__content {
+  flex: 1;
+}
+.card__title {
+  margin: 0;
+  margin-bottom: 0.25rem;
+}
+.card__subtitle {
+  margin: 0;
+}
+.card__btn {
+  height: 2rem;
+  width: 2rem;
+  background-color: transparent;
+  border: 0px solid transparent;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 /*# sourceMappingURL=style.css.map */
