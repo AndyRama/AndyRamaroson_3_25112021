@@ -104,16 +104,16 @@ body, html {
 }
 
 .fonct {
-  padding: 2rem 1rem;
+  padding: 2em;
 }
 .fonct__title {
   margin: 0;
 }
 
-.step {
+.steps {
   background-color: whitesmoke;
   border-radius: 30px;
-  padding: 0.8rem 1.8rem;
+  padding: 1rem 1.8rem;
   display: flex;
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -121,21 +121,27 @@ body, html {
   font-weight: bold;
   position: relative;
 }
-.step__number {
+
+.step {
   position: absolute;
   background-color: purple;
+  color: #fff;
   font-size: 0.9rem;
   height: 26px;
   width: 26px;
   border-radius: 50%;
   display: flex;
-  align-items: center;
+  align-content: center;
   justify-content: center;
   left: -10px;
   top: 0px;
 }
 .step__i {
   margin-right: 1rem;
+  color: #7e7e7e;
+}
+.step__text {
+  display: flex;
   color: #7e7e7e;
 }
 

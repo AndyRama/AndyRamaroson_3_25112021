@@ -43,9 +43,9 @@
     }
 }
 
-//section FONCTIONNEMENT =======================
+//section Fonctionnement =======================
 .fonct {
-  padding: ( $appPadding + 1rem ) $appPadding;
+  padding: 2em;
 
   &__title {
     margin: 0;
@@ -53,37 +53,45 @@
   
 }
 
-.step {
+.steps {
   background-color: whitesmoke;
   border-radius: 30px;
-  padding: 0.8rem 1.8rem;
+  padding: 1rem 1.8rem;
   display: flex;
   align-items: center;
   box-shadow: rgba(0,0,0, 0.24) 0px 3px 8px;
   font-family: 'Arial';
   font-weight: bold;
   position: relative;
-  
-  &__number {
-    position: absolute;
-    background-color: purple;
-    // color: fff;
-    font-size: 0.9rem;
-    height: 26px;
-    width: 26px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    left: -10px;
-    top: 0px;
-  }
-  
+}
+
+.step {
+  position: absolute;
+  background-color: purple;
+  color: #fff;
+  font-size: 0.9rem;
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  left: -10px;
+  top: 0px;
+   
   &__i {
     margin-right: 1rem;
     color: #7e7e7e;
   }
+
+  &__text {
+    display: flex;
+    color: #7e7e7e;
+    // background-color: red;
+
+  }
 }
+
 // section restaurnants  =======================
 .restaurants {
   background-color: #f6f6f6;
