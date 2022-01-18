@@ -3,16 +3,18 @@
   display: flex;
   justify-content: center;
   padding: 1.25rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
+  position: relative;
 }
 
 //section location =======================
 .local {
   display: flex;
   justify-content: center;
-  background-color: rgb(216, 216, 216);
+  background-color:#ECECEC;
   position: relative;
-  padding: 1rem;
   font-size: 1.2rem;
+  padding: 0.8rem 1rem $appPadding;
 
   &__icon {
   margin-right: 1rem;
@@ -26,16 +28,19 @@
 //section hero banner =======================
 .hero {
   text-align: center;
-  padding: 2em;
+  padding: 1.8em;
   background-color: rgb(243, 243, 243);
-
+  height: 200px;
+  
   &__title {
     margin: 0;
   }
 
   &__subtitle {
     font-weight: 400;
-    margin: 1.5rem 0;
+    margin: 1rem ;
+    margin-bottom: 2rem;
+    color: #7e7e7e;
   }
 
   &__btn {
@@ -45,10 +50,13 @@
 
 //section Fonctionnement =======================
 .fonct {
-  padding: 2em;
+  // padding: 42em;
+  padding: ($appPadding + 1rem) $appPadding;
 
   &__title {
     margin: 0;
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
   }  
 }
 
@@ -66,9 +74,9 @@
   box-shadow: rgba(0,0,0, 0.24) 0px 3px 8px;
   font-family: 'Arial';
   font-weight: bold;
-  // position: relative;
-  margin-bottom: 16px;
-  height: 2rem;
+  position: relative;
+  margin-bottom: 1.5rem;
+  height: 2.5rem;
 
   &__i {
     margin-right: 1rem;
@@ -77,7 +85,7 @@
 }  
 
 .step__number {
-  position: relative;
+  position: absolute;
   background-color: purple;
   color: #fff;
   font-size: 0.9rem;
@@ -90,8 +98,7 @@
   justify-content: center;
   left: -10px;
   top: 0;
-  transform: translateX(-120%);
-
+  transform: translateY(90%);
   }
 
 // section restaurnants  =======================
