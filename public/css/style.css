@@ -111,19 +111,29 @@ body, html {
 }
 
 .steps {
+  margin: 0;
+  padding: 0;
+}
+
+.step {
   background-color: whitesmoke;
-  border-radius: 30px;
+  border-radius: 16px;
   padding: 1rem 1.8rem;
   display: flex;
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   font-family: "Arial";
   font-weight: bold;
-  position: relative;
+  margin-bottom: 16px;
+  height: 2rem;
+}
+.step__i {
+  margin-right: 1rem;
+  color: #7e7e7e;
 }
 
-.step {
-  position: absolute;
+.step__number {
+  position: relative;
   background-color: purple;
   color: #fff;
   font-size: 0.9rem;
@@ -132,17 +142,11 @@ body, html {
   border-radius: 50%;
   display: flex;
   align-content: center;
+  align-items: center;
   justify-content: center;
   left: -10px;
-  top: 0px;
-}
-.step__i {
-  margin-right: 1rem;
-  color: #7e7e7e;
-}
-.step__text {
-  display: flex;
-  color: #7e7e7e;
+  top: 0;
+  transform: translateX(-120%);
 }
 
 .restaurants {

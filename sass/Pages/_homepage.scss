@@ -25,22 +25,22 @@
 
 //section hero banner =======================
 .hero {
-    text-align: center;
-    padding: 2em;
-    background-color: rgb(243, 243, 243);
-  
-    &__title {
-      margin: 0;
-    }
-  
-    &__subtitle {
-      font-weight: 400;
-      margin: 1.5rem 0;
-    }
+  text-align: center;
+  padding: 2em;
+  background-color: rgb(243, 243, 243);
 
-    &__btn {
-      @include button(primary);
-    }
+  &__title {
+    margin: 0;
+  }
+
+  &__subtitle {
+    font-weight: 400;
+    margin: 1.5rem 0;
+  }
+
+  &__btn {
+    @include button(primary);
+  }
 }
 
 //section Fonctionnement =======================
@@ -49,24 +49,35 @@
 
   &__title {
     margin: 0;
-  }
-  
+  }  
 }
 
 .steps {
+  margin: 0;
+  padding: 0;
+}
+
+.step {
   background-color: whitesmoke;
-  border-radius: 30px;
+  border-radius: 16px;
   padding: 1rem 1.8rem;
   display: flex;
   align-items: center;
   box-shadow: rgba(0,0,0, 0.24) 0px 3px 8px;
   font-family: 'Arial';
   font-weight: bold;
-  position: relative;
-}
+  // position: relative;
+  margin-bottom: 16px;
+  height: 2rem;
 
-.step {
-  position: absolute;
+  &__i {
+    margin-right: 1rem;
+    color: #7e7e7e;
+  }
+}  
+
+.step__number {
+  position: relative;
   background-color: purple;
   color: #fff;
   font-size: 0.9rem;
@@ -75,22 +86,13 @@
   border-radius: 50%;
   display: flex;
   align-content: center;
+  align-items: center;
   justify-content: center;
   left: -10px;
-  top: 0px;
-   
-  &__i {
-    margin-right: 1rem;
-    color: #7e7e7e;
-  }
-
-  &__text {
-    display: flex;
-    color: #7e7e7e;
-    // background-color: red;
+  top: 0;
+  transform: translateX(-120%);
 
   }
-}
 
 // section restaurnants  =======================
 .restaurants {
