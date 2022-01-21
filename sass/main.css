@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap");
+@use "sass:color";
 body, html {
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -10,6 +11,57 @@ body, html {
   position: relative;
 }
 
+.footer {
+  background-color: #353535;
+}
+
+.footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer__title {
+  color: white;
+  font-size: 1.5rem;
+  font-family: 'shrikhand';
+  font-weight: lighter;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  margin-bottom: 0;
+}
+
+.footer__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 1.5rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.footer__listElt {
+  margin: 0.5rem 0;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: white;
+}
+
+.footer__link:hover {
+  color: #9356DC;
+}
+
+.footer__icon {
+  width: 1rem;
+  margin-right: 0.5rem;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -18,6 +70,9 @@ body, html {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 1.25rem;
+  -webkit-box-shadow: black 0px 3px 8px;
+          box-shadow: black 0px 3px 8px;
+  position: relative;
 }
 
 .local {
@@ -27,10 +82,10 @@ body, html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #d8d8d8;
+  background-color: #ecececd7;
   position: relative;
-  padding: 1rem;
   font-size: 1.2rem;
+  padding: 0.8rem 1rem 1rem;
 }
 
 .local__icon {
@@ -43,8 +98,9 @@ body, html {
 
 .hero {
   text-align: center;
-  padding: 2em;
+  padding: 1.8em;
   background-color: #f3f3f3;
+  height: 200px;
 }
 
 .hero__title {
@@ -53,21 +109,195 @@ body, html {
 
 .hero__subtitle {
   font-weight: 400;
-  margin: 1.5rem 0;
+  margin: 1rem;
+  margin-bottom: 2rem;
+  color: #7e7e7e;
 }
 
 .hero__btn {
   border: 0;
   padding: 0.75rem 1.5rem;
   font-weight: 400;
-  background-color: #666666;
   font-size: 1.1rem;
+  background-color: #666666;
   color: white;
+  display: inline-block;
   cursor: pointer;
   border-radius: 50px;
+  -webkit-box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
+}
+
+.hero__btn:hover {
+  background-color: white;
+  -webkit-box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero__btn a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .fonct {
   padding: 2rem 1rem;
+}
+
+.fonct__title {
+  margin: 0;
+  font-size: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.steps {
+  margin: 0;
+  padding: 0;
+}
+
+.step {
+  background-color: whitesmoke;
+  border-radius: 16px;
+  padding: 1rem 1.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-family: 'Arial';
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 1.5rem;
+  height: 2.5rem;
+}
+
+.step__i {
+  margin-right: 1rem;
+  color: #7e7e7e;
+}
+
+.step__number {
+  position: absolute;
+  background-color: purple;
+  color: #fff;
+  font-size: 0.9rem;
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  left: -10px;
+  top: 0;
+  -webkit-transform: translateY(90%);
+          transform: translateY(90%);
+}
+
+.restaurants {
+  background-color: #f6f6f6;
+  padding: 2rem;
+}
+
+.restaurants__title {
+  font-size: 1.8em;
+}
+
+.cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+  -webkit-column-gap: 2rem;
+          column-gap: 2rem;
+  row-gap: 2rem;
+}
+
+@media (min-width: 64rem) {
+  .cards {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 1rem;
+  position: relative;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.card__img {
+  height: 12rem;
+  width: 100%;
+  border: 0px solid transparent;
+  border-radius: 1rem 1rem 0 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card__badge {
+  background-color: #99E2D0;
+  color: #1b6150;
+  padding: 0.5rem;
+  border-radius: 0.125rem;
+  position: absolute;
+  top: 1rem;
+  right: 0.75rem;
+}
+
+.card__footer {
+  padding: 1rem;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card__content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.card__title {
+  margin: 0;
+  margin-bottom: 0.25rem;
+}
+
+.card__subtitle {
+  margin: 0;
+}
+
+.card__btn {
+  height: 2rem;
+  width: 2rem;
+  background-color: transparent;
+  border: 0px solid transparent;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
 }
 /*# sourceMappingURL=main.css.map */
