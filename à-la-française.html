@@ -4,6 +4,8 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://kit.fontawesome.com/7d17636476.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./public/css/style.css">
 		<title>Restaurant À la française - ohmyfood</title>
 	</head>
 	<header class="header">
@@ -17,44 +19,112 @@
 	<img src="./public/images/restaurants/small/toa-heftiba-DQKerTsQwi0-unsplash380x193.jpg" alt="" class="heroImages">
 
 	<body>
-	  <main class="menu__container" >
+		<main class="menu__container">
 			<header class="menu__header">
 				<h2 class="menu__title">À la française</h2>
-				<button class="menu__btn">
+				<div class="menu__btn">
 					<i class="menu__like far fa-heart fa-2x"></i>
 					<i class="menu__like far fa-heart fa-2x"></i>
-				</button>
+				</div>
 			</header>
-
 			<div class="submenus">
 				<section class="submenu">
 					<h3 class="submenu__title">ENTREES</h3>
-
 					<section class="menuItem">
-						<header class="menuItems __header">
+						<header class="menuItem__header">
 							<h4 class="menuItem__title">Tartare de poulpe acidulé</h4>
 							<p class="menuItem__description">Aux zests d'orange</p>
-						</header>
+						</header> 
 						<div class="menuItem__price">25€</div>
+						<div class="menuItem__confirmation">
+							<div class="menuItem__wrapIcon">
+								<i class="menuItem__icon fas fa-check"></i>
+							</div>
+						</div>
+		  		</section>
+
+				  <section class="submenu">
+						<header class="submenu__header">
+							<h4 class="menuItem__title">Velouté de légumes d'antan</h4>
+							<p class="menuItem__description">Carotte, panais, topinanbour</p>
+						</header>
+						<div class="menuItem__price">35€</div>
+						<div class="menuItem__confirmation">
+							<div class="menuItem__wrapIcon">
+								<i class="menuItem__icon fas fa-check"></i>
+							</div>
+						</div>
+					</section>
+					
+					<section class="submenu">
+						<header class="submenu__header">
+							<h4 class="menuItem__title">Soupe à l'oignon</h4>
+							<p class="menuItem__description">Revisitée</p>
+						</header>
+						<div class="menuItem__price">20€</div>
+						<div class="menuItem__confirmation">
+							<div class="menuItem__wrapIcon">
+								<i class="menuItem__icon fas fa-check"></i>
+							</div>
+						</div>
 					</section>
 
-					<section class="menuItem">
-						<header class="menuItems __header">
-							<h4 class="menuItem__title">Tartare de poulpe acidulé</h4>
-							<p class="menuItem__description">Aux zests d'orange</p>
+					<section class="submenu">
+						<h3 class="submenu__title">PLATS</h3>
+						<header class="submenu">
+							<h4 class="menuItem__title">Coquilles Saint-Jacques</h4>
+							<p class="menuItem__description">Accompagnées d'une purée de panais</p>
 						</header>
-						<div class="menuItem__price">25€</div>
+						<div class="menuItem__price">40€</div>
+						<div class="menuItem__confirmation">
+							<div class="menuItem__icon">
+								<i class="menuItem__icon fas fa-check"></i>
+							</div>
+						</div>	
 					</section>
 
-					<section class="menuItem">
-						<header class="menuItems __header">
-							<h4 class="menuItem__title">Tartare de poulpe acidulé</h4>
-							<p class="menuItem__description">Aux zests d'orange</p>
+					<section class="submenu">
+						<header class="submenu__header">
+							<h4 class="menuItem__title">Magret de canard</h4>
+							<p class="menuItem__description">Et parmentier de pommes de terres</p>
 						</header>
-						<div class="menuItem__price">25€</div>
+						<div class="menuItem__price">35€</div>
+						<div class="menuItem__confirmation">
+							<div class="menuItem__wrapIcon">
+								<i class="menuItem__icon fas fa-check"></i>
+							</div>
+						</div>
 					</section>
-				</section>
+
+					<section class="submenu">
+						<h3 class="submenu__title">DESSERTS</h3>
+						<header class="menuItem__header">
+							<h4 class="menuItem">Pétales de violettes glacés</h4>
+							<p class="menuItem__description">Et purée de noisettes</p>
+						</header>
+						<div class="menuItem__price">18€</div>
+						<div class="menuItem__confirmation">
+							<div class="menuItem__wrapIcon">
+								<div class="menuItem__icon fas fa-check"></div>
+							</div>
+						</div>
+					</section>
+
+					<secction class="submenu">
+						<header class="submenu__header">
+							<h4 class="menuItem__title">Fondant au chocolat</h4>
+							<p class="menuItem__description">Revisité</p>
+						</header>
+						<div class="menuItem__price">22€</div>
+						<div class="menuItem__confirmation">
+							<div class="menuItem__wrapIcon">
+								<i class="menuItem__icon fas fa-check"></i>
+							</div>
+						</div>
+					</secction>
+		  	</section>
+				
 			</div>
-		</main>				
+		</main>
 	</body>
 </html>
