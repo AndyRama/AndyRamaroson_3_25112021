@@ -177,11 +177,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    position:relative
+    position:relative;
+    cursor: pointer;
   }
 
   &__like {
-    background-color: white!important;
+    background-color: white !important;
   }
 }
     

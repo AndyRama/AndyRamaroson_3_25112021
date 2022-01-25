@@ -238,6 +238,7 @@ body, html {
   align-items: center;
   justify-content: center;
   position: relative;
+  cursor: pointer;
 }
 .card__like {
   background-color: white !important;
