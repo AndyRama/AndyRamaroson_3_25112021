@@ -128,5 +128,71 @@
 
 .menuItem {
   background-color: white;
+  border-radius: 0.75rem;
+  display: flex;
+  padding: 1rem;
+  margin: 1rem 0;
+  overflow: hidden;
+
+  &__header {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    flex: 1;
+  }
+
+  &__title {
+    margin: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-bottom: 0.5rem;
+    overflow: hidden;
+  }
+
+  &__description {
+    margin: 0;
+    font-weight: normal;
+    overflow: hidden;
+  }
+
+  &__price {
+    font-weight: bold;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+
+  &__confirmation {
+    background-color: $color-tertiary;
+    width: 4rem;
+    margin: -1rem -5rem -1rem 1rem;
+    border-radius: 0 0.75rem 0.75rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition-delay: 0.5s;
+  }
+
+  &:hover &__confirmation {
+    margin-right: -1rem;
+    opacity: 1;
+  }
+
+  &__wrapIcon {
+    background-color: white;
+    border-radius: 50%;
+    height: 1.6rem;
+    width: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__icon {
+    color: $color-tertiary;
+  }
+
+
 
 }

@@ -359,6 +359,62 @@ body, html {
 
 .menuItem {
   background-color: white;
+  border-radius: 0.75rem;
+  display: flex;
+  padding: 1rem;
+  margin: 1rem 0;
+  overflow: hidden;
+}
+.menuItem__header {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  flex: 1;
+}
+.menuItem__title {
+  margin: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-bottom: 0.5rem;
+  overflow: hidden;
+}
+.menuItem__description {
+  margin: 0;
+  font-weight: normal;
+  overflow: hidden;
+}
+.menuItem__price {
+  font-weight: bold;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.menuItem__confirmation {
+  background-color: #99E2D0;
+  width: 4rem;
+  margin: -1rem -5rem -1rem 1rem;
+  border-radius: 0 0.75rem 0.75rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition-delay: 0.5s;
+}
+.menuItem:hover .menuItem__confirmation {
+  margin-right: -1rem;
+  opacity: 1;
+}
+.menuItem__wrapIcon {
+  background-color: white;
+  border-radius: 50%;
+  height: 1.6rem;
+  width: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menuItem__icon {
+  color: #99E2D0;
 }
 
 /*# sourceMappingURL=style.css.map */
