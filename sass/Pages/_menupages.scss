@@ -145,14 +145,14 @@
     margin: 0;
     white-space: nowrap;
     text-overflow: ellipsis;
-    padding-bottom: 0.5rem;
     overflow: hidden;
   }
 
   &__description {
     margin: 0;
-    font-weight: normal;
     overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
   &__price {
@@ -171,7 +171,7 @@
     align-items: center;
     justify-content: center;
     opacity: 0;
-    transition-delay: 0.5s;
+    transition-duration: 0.5s;
   }
 
   &:hover &__confirmation {
@@ -187,12 +187,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: rotate(180deg);
+    transition-duration: 0.5s;
+  }
+
+  &:hover &__wrapIcon {
+    transform: rotate(0);
   }
 
   &__icon {
     color: $color-tertiary;
   }
-
-
-
 }
