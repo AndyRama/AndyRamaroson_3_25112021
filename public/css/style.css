@@ -422,4 +422,15 @@ body, html {
   color: #99E2D0;
 }
 
+.wrapBtn {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.wrapBtn .hero__btn {
+  text-decoration: none;
+  font-size: 1rem;
+}
+
 /*# sourceMappingURL=style.css.map */
