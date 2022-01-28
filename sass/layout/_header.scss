@@ -1,5 +1,4 @@
-//header =================================
-
+//header navbar =================================
 .header {
 
   padding: 1rem;
@@ -10,4 +9,33 @@
     margin: 0;
     text-align: center;
   }
+}
+
+//header homepages =======================
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem;
+  box-shadow: rgb(0, 0, 0) 0px 3px 8px;
+  position: relative;
+}
+
+//header menupages =======================
+.header {
+	&__withArrow {
+		position: relative;
+	}
+
+	&__arrow {
+		position: absolute;
+		left: 2rem;
+		height: 2rem;
+		width: 2rem;
+		top: 50%;
+		display: flex;
+		align-items: center;
+		transform: translateY(-50%);
+		font-size: 1.2rem;
+		color: black;
+	}
 }

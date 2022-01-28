@@ -28,6 +28,22 @@ body, html {
   position: relative;
 }
 
+.header__withArrow {
+  position: relative;
+}
+.header__arrow {
+  position: absolute;
+  left: 2rem;
+  height: 2rem;
+  width: 2rem;
+  top: 50%;
+  display: flex;
+  align-items: center;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  color: black;
+}
+
 .local {
   display: flex;
   justify-content: center;
@@ -242,22 +258,6 @@ body, html {
 .footer__icon {
   width: 1rem;
   margin-right: 0.5rem;
-}
-
-.header__withArrow {
-  position: relative;
-}
-.header__arrow {
-  position: absolute;
-  left: 2rem;
-  height: 2rem;
-  width: 2rem;
-  top: 50%;
-  display: flex;
-  align-items: center;
-  transform: translateY(-50%);
-  font-size: 1.2rem;
-  color: black;
 }
 
 .heroImages {
