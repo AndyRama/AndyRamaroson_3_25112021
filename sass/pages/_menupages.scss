@@ -89,6 +89,7 @@
 .submenu {
   padding: 0 1rem;
   max-width: 100%;
+  overflow: hidden;
 
   &__title {
     font-weight: normal;
@@ -114,14 +115,14 @@
   display: flex;
   padding: 1rem;
   margin: 1rem 0;
-  overflow: hidden;
   cursor: pointer;
-  max-width: 100%;
-  
+  max-width: 100%; 
+  overflow: hidden;
 
   &__header {
     white-space: nowrap;
     text-overflow: ellipsis;
+    overflow: hidden;
     flex: 1;
   }
 
@@ -129,12 +130,14 @@
     margin: 0;
     white-space: nowrap;
     text-overflow: ellipsis;
+    overflow: hidden;
   }
 
   &__description {
     margin: 0;
     white-space: nowrap;
     text-overflow: ellipsis;
+    overflow: hidden;
   }
 
   &__price {

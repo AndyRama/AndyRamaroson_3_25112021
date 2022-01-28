@@ -341,6 +341,7 @@ body, html {
 .submenu {
   padding: 0 1rem;
   max-width: 100%;
+  overflow: hidden;
 }
 .submenu__title {
   font-weight: normal;
@@ -364,24 +365,27 @@ body, html {
   display: flex;
   padding: 1rem;
   margin: 1rem 0;
-  overflow: hidden;
   cursor: pointer;
   max-width: 100%;
+  overflow: hidden;
 }
 .menuItem__header {
   white-space: nowrap;
   text-overflow: ellipsis;
+  overflow: hidden;
   flex: 1;
 }
 .menuItem__title {
   margin: 0;
   white-space: nowrap;
   text-overflow: ellipsis;
+  overflow: hidden;
 }
 .menuItem__description {
   margin: 0;
   white-space: nowrap;
   text-overflow: ellipsis;
+  overflow: hidden;
 }
 .menuItem__price {
   font-weight: bold;
