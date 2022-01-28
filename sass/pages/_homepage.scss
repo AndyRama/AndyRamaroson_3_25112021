@@ -21,7 +21,7 @@
   text-align: center;
   padding: 1.8em;
   background-color: rgb(243, 243, 243);
-  height: 200px;
+  height: 230px;
   
   &__title {
     margin: 0;
@@ -33,7 +33,7 @@
     margin-bottom: 2rem;
     color: #7e7e7e;
   }
-
+  
   &__btn {
     @include button(primary);
   }

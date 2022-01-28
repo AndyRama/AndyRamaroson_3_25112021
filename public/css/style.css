@@ -63,7 +63,7 @@ body, html {
   text-align: center;
   padding: 1.8em;
   background-color: #f3f3f3;
-  height: 200px;
+  height: 230px;
 }
 .hero__title {
   margin: 0;
@@ -431,6 +431,7 @@ body, html {
 }
 .wrapBtn .hero__btn {
   text-decoration: none;
+  margin-bottom: 3rem;
   font-size: 1rem;
 }
 
