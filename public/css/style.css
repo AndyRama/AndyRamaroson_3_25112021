@@ -10,16 +10,6 @@ body, html {
   position: relative;
 }
 
-.header {
-  padding: 1rem;
-  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
-}
-.header__logo {
-  font-family: "Shrikhand", "cursive";
-  margin: 0;
-  text-align: center;
-}
-
 .footer {
   background-color: #353535;
 }
@@ -57,6 +47,16 @@ body, html {
 .footer__icon {
   width: 1rem;
   margin-right: 0.5rem;
+}
+
+.header {
+  padding: 1rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
+}
+.header__logo {
+  font-family: "Shrikhand", "cursive";
+  margin: 0;
+  text-align: center;
 }
 
 .header {
@@ -171,7 +171,6 @@ body, html {
 .restaurants {
   background-color: #f6f6f6;
   padding: 2rem;
-  margin-bottom: 2rem;
 }
 .restaurants__title {
   font-size: 1.8em;
@@ -429,10 +428,6 @@ body, html {
 .wrapBtn .hero__btn {
   text-decoration: none;
   font-size: 1rem;
-}
-
-.footer {
-  margin-top: -1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
