@@ -19,7 +19,7 @@
 //section hero banner =======================
 .hero {
   text-align: center;
-  padding: 1.8em;
+  padding: 1.6em;
   background-color: rgb(243, 243, 243);
   height: 230px;
   
@@ -68,11 +68,20 @@
   margin-bottom: 1.5rem;
   height: 2.5rem;
 
+  &:hover {
+    background-color: rgba(202, 13, 202, 0.11);
+    opacity: 0.8;
+  }
+
   &__i {
     margin-right: 1rem;
     color: #7e7e7e;
   }
-}  
+
+  &:hover &__i {
+    color: purple;
+  }
+}
 
 .step__number {
   position: absolute;
@@ -95,9 +104,10 @@
 .restaurants {
   background-color: #f6f6f6;
   padding: 2rem;
+  padding-bottom: 4rem;
 
   &__title {
-    font-size: 1.8em;  
+    font-size: 1.6em;  
   }
 }
 
