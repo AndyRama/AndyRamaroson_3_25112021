@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>le delice des sens</title>
     <script src="https://kit.fontawesome.com/7d17636476.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./public/css/style.css">
   </head>
-  
+
   <header class="header">
     <div class="restaurantContainer">
       <a href="./index.html"><i class="header__arrow fas fa-arrow-left"></i></a>        
@@ -16,7 +16,61 @@
     </div>
   </header>
 
+  <img src="./public/images/restaurants/small/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash-380x260.jpg" alt="le delice des sens" class="heroImages">
   <body>
-    
+    <main class="menu container">
+      <header class="menu__header">
+        <h1 class="menu__title">le delice de sens</h1>
+        <button class="menu__btn">
+          <i class="menu__like menu__like--noBg fas fa-heart fa-2x"></i>
+          <i class="menu__like menu__like--bg fas fa-heart fa-2x"></i>
+        </button>
+      </header>
+
+      <div class="submenus">
+        <section class="submenu">
+          <h3 class="submenu__title">Entrées</h3>
+          <section class="menuItem">
+            <header class="menuItem__header">
+              <h4 class="menuItem__title">Tartare de thon</h4>
+              <p class="menuItem__description">Assaisonné au yuzu</p>            
+            </header>
+            <div class="menuItem__price">25€</div>
+            <div class="menuItem__confirmation">
+              <div class="menuItem__wrapIcon">
+                <i class="menuItem__icon fas fa-check"></i>
+              </div>
+            </div>
+          </section>
+
+          <section class="menuItem">
+            <header class="menuItem__header">
+              <h4 class="menuItem__title">Bouchée de homard croustillant</h4>
+              <p class="menuItem__description">Et sa farandole de petis légumes</p>
+            </header>
+            <div class="menuItem__price">35€</div>
+            <div class="menuItem__confirmation">
+              <div class="menuItem__wrapIcon">
+                <i class="menuItem__icon fas fa-check"></i>
+              </div>
+            </div>
+          </section>
+
+          <section class="menuItem">
+            <header class="menuItem__header">
+              <h4 class="menuItem__title">Velouté de cèpes</h4>
+              <p class="menuItem__description">Aux truffes</p>
+            </header>
+            <div class="menuItem__price">20€</div>
+            <div class="menuItem__confirmation">
+              <div class="menuItem__wrapIcon">
+                <i class="menuItem__icon fas fa-check"></i>
+              </div>
+            </div>
+          </section>
+
+        </section>
+      </div>    
+    </main>
   </body>
 </html>
