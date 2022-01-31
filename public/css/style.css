@@ -280,17 +280,18 @@ body, html {
   background-color: #f6f6f6;
   margin-top: -4rem;
   z-index: 1;
-  border-radius: 2rem 2rem 0 0;
+  border-radius: 2rem 1rem 0 0;
   height: max-content;
 }
 .menu__header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 2rem 0 1rem;
+  padding: 1rem 1rem 0 1rem;
 }
 .menu__title {
   font-family: "Shrikhand", "cursive";
+  font-size: 1.8em;
 }
 .menu__btn {
   height: 2rem;
@@ -304,6 +305,7 @@ body, html {
   position: relative;
   background-color: black;
   cursor: pointer;
+  top: 2%;
 }
 .menu__btn::before {
   opacity: 0;
