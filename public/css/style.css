@@ -305,7 +305,6 @@ body, html {
   position: relative;
   background-color: black;
   cursor: pointer;
-  top: 2%;
 }
 .menu__btn::before {
   opacity: 0;
