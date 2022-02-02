@@ -6,6 +6,10 @@
   "scripts": {
     "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndyRama/AndyRamaroson_3_25112021.git"
+  },
   "author": "Andy ramaroson",
   "license": "ISC"
 }

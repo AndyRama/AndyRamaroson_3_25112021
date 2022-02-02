@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap");
 body, html {
   margin: 0;
@@ -276,12 +277,21 @@ body, html {
   width: 100%;
 }
 
+#la-note-enchantée {
+  margin-top: -10rem;
+}
+@media (min-width: 64rem) {
+  #la-note-enchantée {
+    margin-top: -4rem;
+  }
+}
+
 .menu {
   position: relative;
   background-color: #f6f6f6;
   margin-top: -4rem;
   z-index: 1;
-  border-radius: 2rem 1rem 0 0;
+  border-radius: 2rem 2rem 0 0;
   height: max-content;
 }
 .menu__header {
