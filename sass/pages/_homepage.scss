@@ -43,6 +43,11 @@
 .fonct {
   padding: 2rem;
 
+  @media(min-width:64rem) {
+    display: flex;
+    width: auto;
+  }
+
   &__title {
     margin: 0;
     font-size: 1.5rem;
@@ -67,6 +72,10 @@
   position: relative;
   margin-bottom: 1.5rem;
   height: 2.5rem;
+  
+  @media(min-width: 64rem) {
+    width: 40rem;
+  }
 
   &:hover {
     background-color: rgba(202, 13, 202, 0.11);
