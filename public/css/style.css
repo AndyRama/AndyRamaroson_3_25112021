@@ -89,7 +89,7 @@ h5 {
 }
 
 @media (min-width: 64rem) {
-  .submenu {
+  .submenus {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 1rem;
   }
@@ -579,12 +579,6 @@ h5 {
 
 .submenus {
   display: grid;
-}
-@media (min-width: 64rem) {
-  .submenus {
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 1rem;
-  }
 }
 
 .submenu {
