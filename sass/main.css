@@ -146,11 +146,20 @@ h5 {
 }
 
 @media (min-width: 64rem) {
-  .subemnu {
+  .submenu {
     -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
     -webkit-column-gap: 1rem;
             column-gap: 1rem;
+  }
+}
+
+@media (min-width: 64rem) {
+  .footer__listElt {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding-right: 2rem;
   }
 }
 
@@ -193,15 +202,6 @@ h5 {
 
 .footer__listElt {
   margin: 0.5rem 0;
-}
-
-@media (min-width: 64rem) {
-  .footer__listElt {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    padding-right: 2rem;
-  }
 }
 
 .footer__link {

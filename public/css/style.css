@@ -89,9 +89,16 @@ h5 {
 }
 
 @media (min-width: 64rem) {
-  .subemnu {
+  .submenu {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 1rem;
+  }
+}
+
+@media (min-width: 64rem) {
+  .footer__listElt {
+    display: inline-flex;
+    padding-right: 2rem;
   }
 }
 
@@ -125,12 +132,6 @@ h5 {
 }
 .footer__listElt {
   margin: 0.5rem 0;
-}
-@media (min-width: 64rem) {
-  .footer__listElt {
-    display: inline-flex;
-    padding-right: 2rem;
-  }
 }
 .footer__link {
   text-decoration: none;

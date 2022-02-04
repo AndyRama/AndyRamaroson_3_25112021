@@ -26,11 +26,6 @@
 
   &__listElt {
     margin:0.5rem 0; 
- 
-    @media (min-width:64rem) {
-      display: inline-flex;
-      padding-right: 2rem;
-    }
   }
 
   &__link {
