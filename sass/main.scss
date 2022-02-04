@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap');
+
 @import "base/base";
 @import "base/typography";
 
-@import "utils/variables";
-@import "utils/mixins";
 @import "utils/animation";
+@import "utils/mixins";
+@import "utils/variables";
+@import "utils/responsive";
 
-@import "layout/loader";
 @import "layout/container";
-@import "layout/header";
 @import "layout/footer";
+@import "layout/loader";
+@import "layout/header";
 
 @import "pages/homepage";
 @import "pages/menupages";
+
+@import "vendors/normalize.scss"
