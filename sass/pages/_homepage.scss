@@ -101,13 +101,13 @@
   }
 
   &:hover &__i {
-    color: purple;
+    color: $color-primary;
   }
 }
 
 .step__number {
   position: absolute;
-  background-color: purple;
+  background-color: $color-primary;
   color: #fff;
   font-size: 0.9rem;
   height: 26px;

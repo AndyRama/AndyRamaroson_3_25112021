@@ -39,10 +39,12 @@ h5 {
 }
 @keyframes animebox {
   0% {
-    transform: scale(0);
+    transform: translateY(15px);
+    opacity: 0;
   }
   100% {
-    transform: scale(1);
+    transform: translateY(15px);
+    opacity: 1;
   }
 }
 @keyframes spin {
@@ -169,7 +171,6 @@ h5 {
   border-radius: 50%;
   border: 3px solid transparent;
   border-top-color: #9356DC;
-  -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
 }
 
@@ -183,7 +184,6 @@ h5 {
   border-radius: 50%;
   border: 3px solid transparent;
   border-top-color: #FF79DA;
-  -webkit-animation: spin 3s linear infinite;
   animation: spin 3s linear infinite;
 }
 
@@ -197,7 +197,6 @@ h5 {
   border-radius: 50%;
   border: 3px solid transparent;
   border-top-color: #99E2D0;
-  -webkit-animation: spin 1.5s linear infinite;
   animation: spin 1.5s linear infinite;
 }
 
@@ -291,10 +290,12 @@ h5 {
   box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
   background: linear-gradient(0deg, #9356DC 0%, #FF79DA 100%);
   transition-duration: 0.25s;
+  opacity: 1;
 }
 .hero__btn:hover {
   background-color: white;
   box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
+  opacity: 0.8;
 }
 .hero__btn a {
   text-decoration: none;
@@ -350,12 +351,12 @@ h5 {
   color: #7e7e7e;
 }
 .step:hover .step__i {
-  color: purple;
+  color: #9356DC;
 }
 
 .step__number {
   position: absolute;
-  background-color: purple;
+  background-color: #9356DC;
   color: #fff;
   font-size: 0.9rem;
   height: 26px;
@@ -482,8 +483,8 @@ h5 {
   font-size: 1.8em;
 }
 .menu__btn {
-  height: 2rem;
-  width: 2rem;
+  height: 2.5rem;
+  width: 2.5rem;
   background-color: transparent;
   border: 0px solid transparent;
   padding: 0;
@@ -612,7 +613,7 @@ h5 {
   transition-duration: 0.5s;
 }
 .menuItem:hover .menuItem__wrapIcon {
-  transform: rotate(0);
+  transform: rotate(-360deg);
 }
 .menuItem__icon {
   color: #99E2D0;

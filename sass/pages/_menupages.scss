@@ -35,8 +35,8 @@
   }
 
 	&__btn {
-		height: 2rem;
-		width: 2rem;
+		height: 2.5rem;
+		width: 2.5rem;
 		background-color: transparent;
 		border: 0px solid transparent;
 		padding: 0;
@@ -183,7 +183,7 @@
   }
 
   &:hover &__wrapIcon {
-    transform: rotate(0);
+    transform: rotate(-360deg);
   }
 
   &__icon {
