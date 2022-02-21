@@ -5,15 +5,6 @@
 	width: 100%;
 }
 
-//resize image  for restaurant "la note enchantée"
-#la-note-enchantée {
-  margin-top: -10rem;
-
-  @media(min-width: 64rem) {
-    margin-top: -4rem;
-  }
-}
-
 .menu {
 	position: relative;
 	background-color:#f6f6f6;

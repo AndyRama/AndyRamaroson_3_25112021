@@ -20,9 +20,9 @@
   height: 150px;
   margin: -75px 0 0 -75px;
   border-radius: 50%;
-  border: 3px solid transparent;
+  border: 2px solid transparent;
   border-top-color:  $color-primary;
-  animation: spin 2s linear infinite;
+  animation: spin 1.5s linear infinite;
 }
 
 #loader:before {
@@ -33,7 +33,7 @@
   right: 5px;
   bottom: 5px;
   border-radius: 50%;
-  border: 3px solid transparent;
+  border: 2px solid transparent;
   border-top-color:  $color-secondary;
   animation: spin 3s linear infinite;
 }
@@ -46,7 +46,7 @@
   right: 15px;
   bottom: 15px;
   border-radius: 50%;
-  border: 3px solid transparent;
+  border: 2px solid transparent;
   border-top-color:  $color-tertiary;
   animation: spin 1.5s linear infinite;
 }

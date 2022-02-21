@@ -1,3 +1,12 @@
+//resize image  for restaurant "la note enchantée"
+#la-note-enchantée {
+  margin-top: -10rem;
+
+  @media(min-width: 64rem) {
+    margin-top: -4rem;
+  }
+}
+
 //Homepage Desktop version =================== 
 .hero {  
   &__title {   
@@ -41,7 +50,6 @@
 
 //Footer for Desktop version===================
 .footer__listElt {
-   
   @media (min-width:64rem) {
     display: inline-flex;
     padding-right: 2rem;
