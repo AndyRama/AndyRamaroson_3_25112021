@@ -27,21 +27,21 @@ This project is about web design implementation, with only HTML and advanced CSS
 </ul>
 
 <h2> As part of a delivery of the product for an MVP </h2>
-Finalize the order, create the basket and Add a paiement.
+Finalize the order,<b>create</b> the basket and <b>add</b> a paiement.
 
 <h3>Features v2</h3>
 <ul>
   <li>Creation of a common <b>basket</b>.</li>
   <li><b>Add</b> an or multiple item to the basket.</li>
   <li><b>Remove</b> an or multiple item to the basket.</li>
-  <li>Redirecting the 'Commander' button to the cart. </li>
+  <li>Redirecting the <b>'Commander'</b> button to the cart. </li>
   <li>To be able to <b> finalize</b> your order.</li>
   <li><b>Add</b> a payment in the basket.</li>
 </ul>
 
 <h3>Technical constraints v2</h3>
 <ul>
-  <li>you can use Javascript for shopping.</li>
-  <li>Creating a cart page.</li>
+  <li>you can use <b>Javascript</b> for shopping.</li>
+  <li><b>Creating</b> a cart page.</li>
   <li>Graphic charter to respect.</li>
 </ul>
