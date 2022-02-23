@@ -26,8 +26,8 @@ This project is about web design implementation, with only HTML and advanced CSS
   <li>The colors to be used : #9356DC as primary, #FF79DA as secondary, #99E2D0 as tertiary.</li>
 </ul>
 
-<h2> As part of a delivery of the product for an MVP </h2>
-Finalize the order,<b>create</b> the basket and <b>add</b> a paiement.
+<h2> As part of a delivery of the product for an MVP (Javascript) </h2>
+Next sprint finalize the order,<b>create</b> the basket and <b>add</b> a paiement.
 
 <h3>Features v2</h3>
 <ul>
