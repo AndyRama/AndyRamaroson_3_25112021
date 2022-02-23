@@ -27,7 +27,7 @@ This project is about web design implementation, with only HTML and advanced CSS
 </ul>
 
 <h2> As part of a delivery of the product for an MVP (Javascript) </h2>
-Next sprint finalize the order,<b>create</b> the basket and <b>add</b> a paiement.
+Next sprint finalize the order, <b>create</b> the basket and <b>add</b> a paiement.
 
 <h3>Features v2</h3>
 <ul>
