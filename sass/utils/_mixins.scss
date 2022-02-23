@@ -15,15 +15,16 @@
   background:linear-gradient(0deg, $color-primary 0%,$color-secondary 100%);
   transition-duration: 0.25s;
   opacity: 1;
-  
+  text-decoration: none !important;  
+
   &:hover {
     background-color: white;
     box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.50);
     opacity: 0.8;
   }
-
+  
   a {
     text-decoration: none;
-    color: inherit;
-  }
+    color: inherit;    
+  }   
 }

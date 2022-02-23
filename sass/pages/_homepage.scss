@@ -46,9 +46,10 @@
   }
   
   &__btn {
-    @include button(primary);
-  }
+    @include button(primary);  
+  } 
 }
+
 
 // section Fonctionnement =======================
 .fonct {

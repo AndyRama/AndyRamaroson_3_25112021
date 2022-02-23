@@ -408,6 +408,7 @@ h5 {
   -webkit-transition-duration: 0.25s;
           transition-duration: 0.25s;
   opacity: 1;
+  text-decoration: none !important;
 }
 
 .hero__btn:hover {
