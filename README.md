@@ -6,7 +6,7 @@ https://andyrama.github.io/AndyRamaroson_3_25112021/
 <h2> Ohmyfood CSS animation project </h2>
 This project is about web design implementation, with only HTML and advanced CSS.
 
-<h3>Features</h3>
+<h3>Features v1</h3>
 <ul>
   <li>4 restaurants featured, which contain a menu each.</li>
   <li>The background-color on the buttons should be <b>slightly lighten</b> on hover.</li>
@@ -17,11 +17,31 @@ This project is about web design implementation, with only HTML and advanced CSS
   <li>the visitor can choose his item, a <b>validation box should then appear from the right, with a rotation for the icon</b>.</li>
 </ul>
 
-<h3>Technical constraints</h3>
+<h3>Technical constraints v1</h3>
 <ul>
   <li>Mobile-first approach.</li>
   <li>Only the mobile model has been provided, desktop and tablet results are free.</li>
   <li>Only CSS can be used, no Javascript and no framework.</li>
   <li>Using SASS is required.</li>
   <li>The colors to be used : #9356DC as primary, #FF79DA as secondary, #99E2D0 as tertiary.</li>
+</ul>
+
+<h2> As part of a delivery of the product for an MVP </h2>
+Finalize the order, create the basket and Add a paiement.
+
+<h3>Features v2</h3>
+<ul>
+  <li>Creation of a common <b>basket</b>.</li>
+  <li><b>Add</b> an or multiple item to the basket.</li>
+  <li><b>Remove</b> an or multiple item to the basket.</li>
+  <li>Redirecting the 'Commander' button to the cart. </li>
+  <li>To be able to <b> finalize</b> your order.</li>
+  <li><b>Add</b> a payment in the basket.</li>
+</ul>
+
+<h3>Technical constraints v2</h3>
+<ul>
+  <li>you can use Javascript for shopping.</li>
+  <li>Creating a cart page.</li>
+  <li>Graphic charter to respect.</li>
 </ul>
