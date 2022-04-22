@@ -17,7 +17,7 @@ This project is about web design implementation, with only HTML and advanced CSS
   <li>the visitor can choose his item, a <b>validation box should then appear from the right, with a rotation for the icon</b>.</li>
 </ul>
 
-<h3>Technical constraints v1</h3>
+<h3>Technical contraints v1</h3>
 <ul>
   <li>Mobile-first approach.</li>
   <li>Only the mobile model has been provided, desktop and tablet results are free.</li>
@@ -39,7 +39,7 @@ Next sprint finalize the order, <b>create</b> the basket and <b>add</b> a paieme
   <li><b>Add</b> a payment in the basket.</li>
 </ul>
 
-<h3>Technical constraints v2</h3>
+<h3>Technical contraints v2</h3>
 <ul>
   <li>you can use <b>Javascript</b> for shopping.</li>
   <li><b>Creating</b> a cart page.</li>
